@@ -22,6 +22,7 @@
 
 # Example themes
 /wp-content/themes/twenty*/
+/wp-content/themes/astra/
 
 # Example plugin
 /wp-content/plugins/hello.php
