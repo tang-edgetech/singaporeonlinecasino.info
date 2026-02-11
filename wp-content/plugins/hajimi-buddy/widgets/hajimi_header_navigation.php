@@ -222,15 +222,31 @@ class Hajimi_Header_Navigation_Widget extends \Elementor\Widget_Base {
 
     protected function render() {
         $settings = $this->get_settings_for_display();
-
+        $show_site_logo = $settings['show_site_logo'];
         $additional_buttons = $settings['additional_buttons'];
         $buttons = [];
 
         ?>
         <nav class="navbar px-3 px-xl-0 pt-2">
             <div class="navbar-row d-flex flex-wrap justify-content-between justify-content-xl-between">
-                <div class="col-11">
+                <div class="col-11 d-flex justify-content-between align-items-center">
+                    <div class="navbar-col col-left">
+                    <?php if( $show_site_logo ) { 
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                    ?>
+                        <a href="<?= home_url();?>" class="navbar-brand">
+                        <?php if( $logo ) {
+                            echo '<img src="' . esc_url( $logo[0] ) . '" alt="' . esc_attr( get_bloginfo('name') ) . '">';
+                        } else {
+                            echo '<h1 class="site-title">' . esc_html( get_bloginfo('name') ) . '</h1>';
+                        } ?>
+                        </a>
+                    <?php } ?>
+                    </div>
+                    <div class="navbar-col col-right">
 
+                    </div>
                 </div>
             </div>
         </nav>
