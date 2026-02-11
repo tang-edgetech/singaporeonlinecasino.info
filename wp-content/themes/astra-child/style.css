@@ -1,0 +1,56 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+:root {
+    --navbar-main-color: #292421;
+    --navbar-color: #fff;
+    --navbar-hover-border: #ff0031;
+    --navbar-item-border-color: #f3f5f6;
+    --navbar-item-hover-color: #ff0031;
+    --navbar-item-hover-shadow: 0px 2px 20px rgba(255, 0, 49, 0.3);
+    --navbar-item-shadow: inset -3.42857px 5.14286px 8.57143px rgba(0, 0, 0, 0.2);
+    --login-btn-bg: transparent;
+    --login-btn-color: #fff;
+    --btn-gradient: linear-gradient(90deg, #b00022, #ff0031);
+    --btn-hover-bg: #fff;
+    --btn-hover-color: #ff0031;
+    --main-sub-color: #9e9e9e;
+    --slider-bullet-hover-color: #ff0031;
+    --tab-active-color: #ff0031;
+    --accrodion-active-bg-color: #ff0031;
+    --accrodion-active-color: #fff;
+    --prediction-tab-color: #fff;
+}
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6, p, a, li, input, textarea, select, label {
+    margin: 0;
+}
+img, img.img-fluid {
+    display: block;
+    width: 100%;
+}
+div[class*="thumbnail"] > img, div[class*="thumbnail"] > img.img-fluid {
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+}
