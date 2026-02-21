@@ -13,4 +13,21 @@ $(document).ready(function() {
     //         <span class="d-none hide">EU9 Casino</span>
     //     </a>
     // </li>
+
+    $(document).on('click', '#masthead .navbar .menu-toggler', function(e) {
+        e.preventDefault();
+        var $button = $(this),
+            $navbar = $button.closest('nav.navbar'),
+            $side_menu = $navbar.siblings('.side-menu-wrapper');
+        $navbar.addClass('navbar-opened');
+        $side_menu.addClass('open');
+    });
+    $(document).on('click', '#masthead .side-menu-wrapper .close-side-menu', function(e) {
+        e.preventDefault();
+        var $button = $(this),
+            $side_menu = $button.closest('.side-menu-wrapper'),
+            $navbar = $side_menu.siblings('.navbar');
+        $navbar.removeClass('navbar-opened');
+        $side_menu.removeClass('open');
+    });
 });
