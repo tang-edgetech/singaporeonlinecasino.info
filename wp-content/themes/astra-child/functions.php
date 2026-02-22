@@ -100,7 +100,62 @@ function hajimi_custom_header_navigation($atts) {
         </nav>
         <aside class="position-fixed fixed-top side-menu-wrapper w-100">
             <div class="side-menu ms-auto">
-
+            <?php
+            $side_menu = get_field('side_menu', 'option');
+            $banners = $side_menu['banner'];
+            $call_to_action = $side_menu['call_to_action'];
+            $sidemenu_banner_class = 'sidemenu-banner';
+            $sidemenu_banner_item_class = 'banner-item';
+            if( !empty($banners) ) {
+                if( count($banners) > 1 ) { 
+                    $sidemenu_banner_class .= ' swiper';
+                    $sidemenu_banner_item_class .= ' swiper-slide';
+                }
+            ?>
+                <div class="<?= $sidemenu_banner_class;?>">
+                <?php if( count($banners) > 1 ) { echo '<div class="swiper-wrapper">'; } ?>
+            <?php foreach( $banners as $banner ) {
+                    $banner_title = $banner['banner_title'];
+                    $banner_image = $banner['banner_image'];
+                    $banner_url = $banner['banner_url']; ?>
+                <div class="<?= $sidemenu_banner_item_class;?>">
+                    <?php
+                    if( !empty($banner_url['url']) ) { echo '<a href="'.$banner_url['url'].'" title="'.$banner_title.'">'; }
+                    if( $banner_image['url'] ) {
+                        echo '<img src="'.$banner_image['url'].'" class="img-fluid w-100" alt="'.$banner_title.'"/>';
+                    }
+                    if( !empty($banner_url['url']) ) { echo '</a>'; }
+                    ?>
+                </div>
+            <?php } ?>
+                <?php if( count($banners) > 1 ) { echo '</div>'; } ?>
+                </div>
+            <?php
+            }
+            if( !empty($call_to_action) ) {
+            ?>
+                <div class="sidemenu-buttons">
+                <?php foreach($call_to_action as $btn) {
+                    $button = $btn['button_link'];
+                    $button_link = $button['url'];
+                    $button_color = $btn['button_color'];
+                    if( empty($button_link) ) { 
+                        $button_link = 'javascript:void(0);';
+                    }
+                ?>
+                    <a href="<?= $button_link;?>" class="btn btn-<?= $button_color['value'];?>" target="<?= $button['target'];?>"><?= $button['title'];?></a>
+                <?php } ?>
+                </div>
+            <?php
+            }
+                wp_nav_menu(array(
+                    'theme_location' => 'primary',
+                    'container_id' => 'sidemenu-navigation',
+                    'container_class' => 'sidemenu-navigation',
+                    'menu_id' => 'primary-menu-list',
+                    'menu_class' => 'sidemenu-menu-list navbar nav m-0 p-0',
+            ));
+            ?>
             </div>
             <button type="button" class="close-side-menu bg-transparent">
                 <i class="fa fa-times" aria-hidden="true"></i>
@@ -112,9 +167,55 @@ function hajimi_custom_header_navigation($atts) {
 }
 add_shortcode( 'hajimi_custom_header_navigation', 'hajimi_custom_header_navigation' );
 
-// function wpdocs_my_function() {
+add_filter('nav_menu_link_attributes', 'add_acf_tag_to_a', 10, 4);
+function add_acf_tag_to_a($atts, $item, $args, $depth) {
+
+    if ($args->theme_location !== 'primary') {
+        return $atts;
+    }
+
+    $tags = get_field('tag', $item);
+
+    if (!empty($tags)) {
+
+        if (!is_array($tags)) {
+            $tags = array($tags);
+        }
+
+        if (!isset($atts['class'])) {
+            $atts['class'] = '';
+        }
     
-//     $providers = get_the_provider_list();
-//     echo "<p class=\"value\">".json_encode($providers)."</p>";
-// }
-// add_action( 'wp_body_open', 'wpdocs_my_function' );
+        $atts['class'] .= 'tag';
+        foreach ($tags as $tag) {
+            $atts['class'] .= ' tag-' . sanitize_html_class($tag['value']);
+        }
+
+        $first_tag = reset($tags);
+        $atts['data-tag'] = esc_attr($first_tag['value']);
+    }
+
+    return $atts;
+}
+
+function add_icon_before_menu_title($title, $item, $args, $depth) {
+    if (!is_string($title)) {
+        return '';
+    }
+
+    if (isset($args->theme_location) && $args->theme_location === 'primary') {
+
+        $icon = get_field('menu_icon', $item);
+        $icon_html = '';
+
+        if (!empty($icon) && is_array($icon) && !empty($icon['url'])) {
+
+            $icon_html = '<img src="' . esc_url($icon['url']) . '" alt="' . esc_attr($icon['alt'] ?? '') . '" class="menu-icon" />';
+
+        }
+        $title = $icon_html . '<span class="menu-label">' . $title . '</span>';
+    }
+
+    return (string) $title;
+}
+add_filter('nav_menu_item_title', 'add_icon_before_menu_title', 10, 4);

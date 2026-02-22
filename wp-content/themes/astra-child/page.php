@@ -23,10 +23,8 @@ get_header(); ?>
 
 		<?php astra_primary_content_top(); ?>
 
-		<?php 
-        astra_content_page_loop();
-        // the_content();
-        ?>
+		<?php // astra_content_page_loop(); ?>
+		<div class="elementor-page-content"><?php the_content(); ?></div>
 
 		<?php astra_primary_content_bottom(); ?>
 

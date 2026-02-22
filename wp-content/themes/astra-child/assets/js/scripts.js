@@ -3,6 +3,23 @@ $(document).ready(function() {
         var $this = $(this),
             $button;
     });
+    $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+
+        var target = $(this).attr('href');
+        var $target = $(target);
+
+        if ($target.length) {
+            var offsetTop = $target.offset().top - 50;
+
+            $('html, body').animate({
+                scrollTop: offsetTop
+            }, 600);
+
+            history.pushState(null, null, target);
+        }
+    });
+
     // <li class="menu-item menu-item-lvl2 text-0-9 text-weight-400 text-uppercase pr-2 mr-4 position-relative live-dealer tag tag-hot" data-game-type="live-dealer" data-tag="hot">
     //     <a href="https://eupphuat.com/live-casino" role="button">Live Casino</a>
     // </li>
@@ -13,6 +30,36 @@ $(document).ready(function() {
     //         <span class="d-none hide">EU9 Casino</span>
     //     </a>
     // </li>
+    var $sidemenu_banner = null;
+    var $home_introduction_banner = null;
+    if( $('.sidemenu-banner.swiper')[0] ) {
+        $sidemenu_banner = new Swiper('.sidemenu-banner.swiper', {
+            slidesPerView: 1,
+        });
+    }
+
+    if( $('.swiper-introduction-banner.swiper')[0] ) {
+        $home_introduction_banner = new Swiper('.swiper-introduction-banner', {
+            slidesPerView: 1,
+            effect: "coverflow",
+            preloadImages: false,
+            loop: true,
+            autoplay: {
+                delay: 8000,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 85,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-introduction-banner .intro-banner-pagination'
+            }
+        });
+    }
 
     $(document).on('click', '#masthead .navbar .menu-toggler', function(e) {
         e.preventDefault();
