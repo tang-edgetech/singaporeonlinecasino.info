@@ -1,0 +1,3310 @@
+Array
+(
+    [address] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [a] => Array
+        (
+            [href] => 1
+            [rel] => 1
+            [rev] => 1
+            [name] => 1
+            [target] => 1
+            [download] => Array
+                (
+                    [valueless] => y
+                )
+
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+            [data-repeat-notice-after] => 1
+        )
+
+    [abbr] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [acronym] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [area] => Array
+        (
+            [alt] => 1
+            [coords] => 1
+            [href] => 1
+            [nohref] => 1
+            [shape] => 1
+            [target] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [article] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [aside] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [audio] => Array
+        (
+            [autoplay] => 1
+            [controls] => 1
+            [loop] => 1
+            [muted] => 1
+            [preload] => 1
+            [src] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [b] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [bdo] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [big] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [blockquote] => Array
+        (
+            [cite] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [br] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [button] => Array
+        (
+            [disabled] => 1
+            [name] => 1
+            [type] => 1
+            [value] => 1
+            [popovertarget] => 1
+            [popovertargetaction] => 1
+            [aria-haspopup] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [caption] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [cite] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [code] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [col] => Array
+        (
+            [align] => 1
+            [char] => 1
+            [charoff] => 1
+            [span] => 1
+            [valign] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [colgroup] => Array
+        (
+            [align] => 1
+            [char] => 1
+            [charoff] => 1
+            [span] => 1
+            [valign] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [data] => Array
+        (
+            [value] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [del] => Array
+        (
+            [datetime] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [dd] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [dfn] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [details] => Array
+        (
+            [align] => 1
+            [open] => 1
+            [name] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [div] => Array
+        (
+            [align] => 1
+            [popover] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [dialog] => Array
+        (
+            [closedby] => 1
+            [open] => 1
+            [popover] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [dl] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [dt] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [em] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [fieldset] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [figure] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [figcaption] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [font] => Array
+        (
+            [color] => 1
+            [face] => 1
+            [size] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [footer] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [h1] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [h2] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [h3] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [h4] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [h5] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [h6] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [header] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [hgroup] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [hr] => Array
+        (
+            [align] => 1
+            [noshade] => 1
+            [size] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [i] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [img] => Array
+        (
+            [alt] => 1
+            [align] => 1
+            [border] => 1
+            [height] => 1
+            [hspace] => 1
+            [loading] => 1
+            [longdesc] => 1
+            [vspace] => 1
+            [src] => 1
+            [usemap] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [ins] => Array
+        (
+            [datetime] => 1
+            [cite] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [kbd] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [label] => Array
+        (
+            [for] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [legend] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [li] => Array
+        (
+            [align] => 1
+            [value] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [main] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [map] => Array
+        (
+            [name] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mark] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [menu] => Array
+        (
+            [type] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [meter] => Array
+        (
+            [high] => 1
+            [low] => 1
+            [max] => 1
+            [min] => 1
+            [optimum] => 1
+            [value] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [nav] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [object] => Array
+        (
+            [data] => Array
+                (
+                    [required] => 1
+                    [value_callback] => _wp_kses_allow_pdf_objects
+                )
+
+            [type] => Array
+                (
+                    [required] => 1
+                    [values] => Array
+                        (
+                            [0] => application/pdf
+                        )
+
+                )
+
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [p] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [pre] => Array
+        (
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [progress] => Array
+        (
+            [max] => 1
+            [value] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [q] => Array
+        (
+            [cite] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [rb] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [rp] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [rt] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [rtc] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [ruby] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [s] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [samp] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [search] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [span] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [section] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [small] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [strike] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [strong] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [sub] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [summary] => Array
+        (
+            [align] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [sup] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [table] => Array
+        (
+            [align] => 1
+            [bgcolor] => 1
+            [border] => 1
+            [cellpadding] => 1
+            [cellspacing] => 1
+            [rules] => 1
+            [summary] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [tbody] => Array
+        (
+            [align] => 1
+            [char] => 1
+            [charoff] => 1
+            [valign] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [td] => Array
+        (
+            [abbr] => 1
+            [align] => 1
+            [axis] => 1
+            [bgcolor] => 1
+            [char] => 1
+            [charoff] => 1
+            [colspan] => 1
+            [headers] => 1
+            [height] => 1
+            [nowrap] => 1
+            [rowspan] => 1
+            [scope] => 1
+            [valign] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [textarea] => Array
+        (
+            [cols] => 1
+            [rows] => 1
+            [disabled] => 1
+            [name] => 1
+            [readonly] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [tfoot] => Array
+        (
+            [align] => 1
+            [char] => 1
+            [charoff] => 1
+            [valign] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [th] => Array
+        (
+            [abbr] => 1
+            [align] => 1
+            [axis] => 1
+            [bgcolor] => 1
+            [char] => 1
+            [charoff] => 1
+            [colspan] => 1
+            [headers] => 1
+            [height] => 1
+            [nowrap] => 1
+            [rowspan] => 1
+            [scope] => 1
+            [valign] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [thead] => Array
+        (
+            [align] => 1
+            [char] => 1
+            [charoff] => 1
+            [valign] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [time] => Array
+        (
+            [datetime] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [title] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [tr] => Array
+        (
+            [align] => 1
+            [bgcolor] => 1
+            [char] => 1
+            [charoff] => 1
+            [valign] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [track] => Array
+        (
+            [default] => 1
+            [kind] => 1
+            [label] => 1
+            [src] => 1
+            [srclang] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [tt] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [u] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [ul] => Array
+        (
+            [type] => 1
+            [popover] => 1
+            [role] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [xml:lang] => 1
+        )
+
+    [ol] => Array
+        (
+            [start] => 1
+            [type] => 1
+            [reversed] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [var] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [video] => Array
+        (
+            [autoplay] => 1
+            [controls] => 1
+            [height] => 1
+            [loop] => 1
+            [muted] => 1
+            [playsinline] => 1
+            [poster] => 1
+            [preload] => 1
+            [src] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [wbr] => Array
+        (
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [hidden] => 1
+            [id] => 1
+            [lang] => 1
+            [style] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [math] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [display] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mtext] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mi] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [mathvariant] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mn] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mo] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [form] => 1
+            [fence] => 1
+            [separator] => 1
+            [lspace] => 1
+            [rspace] => 1
+            [stretchy] => 1
+            [symmetric] => 1
+            [maxsize] => 1
+            [minsize] => 1
+            [largeop] => 1
+            [movablelimits] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mspace] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [width] => 1
+            [height] => 1
+            [depth] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [ms] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mrow] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mfrac] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [linethickness] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [msqrt] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mroot] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mstyle] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [merror] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mpadded] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [width] => 1
+            [height] => 1
+            [depth] => 1
+            [lspace] => 1
+            [voffset] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mphantom] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [msub] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [msup] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [msubsup] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [munder] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [accentunder] => 1
+            [accent] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mover] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [accentunder] => 1
+            [accent] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [munderover] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [accentunder] => 1
+            [accent] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mmultiscripts] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mprescripts] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mtable] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [columnalign] => 1
+            [rowspacing] => 1
+            [columnspacing] => 1
+            [align] => 1
+            [rowalign] => 1
+            [columnlines] => 1
+            [rowlines] => 1
+            [frame] => 1
+            [framespacing] => 1
+            [width] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mtr] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [columnalign] => 1
+            [rowalign] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [mtd] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [columnspan] => 1
+            [rowspan] => 1
+            [columnalign] => 1
+            [rowalign] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [semantics] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [annotation] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [encoding] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [menclose] => Array
+        (
+            [displaystyle] => 1
+            [scriptlevel] => 1
+            [mathbackground] => 1
+            [mathcolor] => 1
+            [mathsize] => 1
+            [class] => 1
+            [data-*] => 1
+            [dir] => 1
+            [id] => 1
+            [style] => 1
+            [notation] => 1
+            [aria-controls] => 1
+            [aria-current] => 1
+            [aria-describedby] => 1
+            [aria-details] => 1
+            [aria-expanded] => 1
+            [aria-hidden] => 1
+            [aria-label] => 1
+            [aria-labelledby] => 1
+            [aria-live] => 1
+            [hidden] => 1
+            [lang] => 1
+            [title] => 1
+            [role] => 1
+            [xml:lang] => 1
+        )
+
+    [noscript] => 1
+    [script] => Array
+        (
+            [type] => 1
+            [async] => 1
+            [defer] => 1
+            [src] => 1
+            [crossorigin] => 1
+            [nonce] => 1
+            [charset] => 1
+        )
+
+    [style] => Array
+        (
+            [media] => 1
+            [type] => 1
+            [scoped] => 1
+            [nonce] => 1
+        )
+
+    [link] => Array
+        (
+            [href] => 1
+            [rel] => 1
+            [media] => 1
+            [hreflang] => 1
+            [type] => 1
+            [sizes] => 1
+            [title] => 1
+            [fetchpriority] => 1
+            [as] => 1
+            [imagesrcset] => 1
+            [imagesizes] => 1
+            [crossorigin] => 1
+            [nonce] => 1
+            [itemprop] => 1
+            [referrerpolicy] => 1
+            [integrity] => 1
+        )
+
+    [meta] => Array
+        (
+            [name] => 1
+            [http-equiv] => 1
+            [content] => 1
+            [charset] => 1
+            [itemprop] => 1
+            [media] => 1
+            [property] => 1
+        )
+
+    [iframe] => Array
+        (
+            [src] => 1
+            [height] => 1
+            [width] => 1
+            [style] => 1
+            [loading] => 1
+        )
+
+)
