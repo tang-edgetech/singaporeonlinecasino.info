@@ -646,6 +646,10 @@ body hr {
 .table-wrapper .table tbody th, .table-wrapper .table tbody td {
     padding: 0.313rem;
 }
+.elementor-widget-text-editor .table tbody th, .elementor-widget-text-editor .table tbody td, .elementor-text-editor .table tbody th, .elementor-text-editor .table tbody td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
 @media (max-width: 767px) {
 
 }
