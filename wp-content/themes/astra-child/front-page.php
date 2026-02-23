@@ -73,8 +73,8 @@ get_header(); ?>
                     <div class="section-inner py-4">
                         <div class="col-12 col-md-11 col-xl-10 mx-auto">
                             <picture>
-                                <source media="(min-width: 1200px)" srcset="http://localhost:8080/singaporeonlinecasino.info/wp-content/uploads/2026/02/desktop-bottom-sg-en.webp">
-                                <img src="http://localhost:8080/singaporeonlinecasino.info/wp-content/uploads/2026/02/mobile-bottom-sg-en.webp"/>
+                                <source media="(min-width: 1200px)" srcset="<?= home_url();?>/wp-content/uploads/2026/02/desktop-bottom-sg-en.webp">
+                                <img src="<?= home_url();?>/wp-content/uploads/2026/02/mobile-bottom-sg-en.webp"/>
                             </picture>
                         </div>
                     </div>
