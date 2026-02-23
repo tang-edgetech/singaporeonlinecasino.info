@@ -58,6 +58,17 @@ function child_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
+add_action('template_redirect', function() {
+
+    if ( is_front_page() || is_page() ) {
+
+        remove_action( 'wp_head', '_wp_render_title_tag', 1 );
+        remove_theme_support( 'title-tag' );
+
+    }
+
+});
+
 add_filter( 'document_title_separator', function( $sep ) {
     return '|';
 });

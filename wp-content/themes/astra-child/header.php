@@ -44,13 +44,13 @@ if ( \Elementor\Plugin::$instance->editor->is_edit_mode() || \Elementor\Plugin::
 			text-transform: inherit;
 			color: inherit;
 		}
-		.elementor-widget-text-editor > a, .elementor-widget-text-editor p > a {
+		.elementor-widget-text-editor > a, .elementor-widget-text-editor p > a, .elementor-widget-text-editor li > a, .elementor-text-editor > a, .elementor-text-editor p > a, .elementor-text-editor li > a {
 			color: #ff0031;
 		}
-		.elementor-widget-text-editor > a:hover, .elementor-widget-text-editor p > a:hover {
+		.elementor-widget-text-editor > a:hover, .elementor-widget-text-editor p > a:hover, .elementor-widget-text-editor li > a:hover, .elementor-text-editor > a:hover, .elementor-text-editor p > a:hover, .elementor-text-editor li > a:hover {
 			color: #666;
 		}
-		.elementor-widget-text-editor p {
+		.elementor-widget-text-editor p, .elementor-text-editor p {
 			margin: 0;
 		}
 		.elementor-widget-text-editor p+ul, .elementor-widget-text-editor p+ol, .elementor-text-editor > p+ul, .elementor-text-editor > p+ol {
