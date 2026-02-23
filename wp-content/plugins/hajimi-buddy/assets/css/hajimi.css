@@ -1,1 +1,14 @@
 header#masthead {}
+.hajimi-magic-image {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hajimi-magic-image img, .hajimi-magic-gallery .gallery-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
+}

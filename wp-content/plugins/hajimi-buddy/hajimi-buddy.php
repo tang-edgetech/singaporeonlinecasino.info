@@ -29,6 +29,7 @@ add_action( 'elementor/widgets/register', function( $widgets_manager ) {
 
     $widgets_manager->register( new \Hajimi_Copyright_Label_Widget() );
     $widgets_manager->register( new \Hajimi_Header_Navigation_Widget() );
+    $widgets_manager->register( new \Hajimi_Responsive_Image() );
 } );
 
 function hajimi_enqueue_styles() {

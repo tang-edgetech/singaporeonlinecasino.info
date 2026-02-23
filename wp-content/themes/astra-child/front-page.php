@@ -24,30 +24,65 @@ get_header(); ?>
 		<?php astra_primary_content_top(); ?>
 
         <?php
-        $homepage = get_field('homepage', 'option');
-        $introduction_banner = $homepage['introduction_banner'];
-        if( !empty($introduction_banner) ) {
-            echo '<div class="swiper swiper-introduction-banner">';
-                echo '<div class="swiper-wrapper">';
-                foreach($introduction_banner as $banner) {
-                    $banner_image = $banner['banner_image'];
-                    $banner_link = $banner['banner_link'];
-                ?>
-                    <div class="swiper-slide">
-                        <?php if( !empty($banner_link['url']) ) : ?><a href="<?= $banner_link['url'];?>"><?php endif;?>
-                            <img src="<?= $banner_image['url'];?>" class="img-fluid w-100" alt="<?= $banner_image['alt'];?>"/>
-                        <?php if( !empty($banner_link['url']) ) : ?></a><?php endif;?>
-                    </div>
-                <?php
-                }
-                echo '</div>';
-                echo '<div class="intro-banner-pagination"></div>';
-            echo '</div>';
+        if ( \Elementor\Plugin::$instance->editor->is_edit_mode() || \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
+        ?> 
+            <div class="col-11 col-md-10 mx-auto mt-3 mt-md-4"><div class="alert alert-warning" role="alert">Frontend content is hide on this preview editor!</div></div>
+        <?php
         }
-        echo '<div class="d-none d-lg-block"><hr class="mt-5"></div>';
-        ?>
+        else {
+            $homepage = get_field('homepage', 'option');
+            $introduction_banner = $homepage['introduction_banner'];
+            echo '<div class="col-12 col-md-11 col-xl-10 mx-auto px-4 px-md-0">';
+                echo '<div class="swiper swiper-introduction-banner mt-3 mt-md-4">';
+                if( !empty($introduction_banner) ) {
+                        echo '<div class="swiper-wrapper">';
+                        foreach($introduction_banner as $banner) {
+                            $banner_image = $banner['banner_image'];
+                            $banner_link = $banner['banner_link'];
+                        ?>
+                            <div class="swiper-slide">
+                                <?php if( !empty($banner_link['url']) ) : ?><a href="<?= $banner_link['url'];?>"><?php endif;?>
+                                    <img src="<?= $banner_image['url'];?>" class="img-fluid w-100" alt="<?= $banner_image['alt'];?>"/>
+                                <?php if( !empty($banner_link['url']) ) : ?></a><?php endif;?>
+                            </div>
+                        <?php
+                        }
+                        echo '</div>';
+                        echo '<div class="intro-banner-pagination"></div>';
+                    echo '</div>';
+                }
+                echo '<div class="d-none d-lg-block"><hr class="mt-5"></div>';
+                
+            echo '</div>';
+            ?>
+                <div class="homepage-pre-content">
+                    <?= do_shortcode('[game_provider_slider game_type="slots"]');?>
+                    <?= do_shortcode('[game_provider_slider game_type="live-casino"]');?>
+                    <?= do_shortcode('[game_provider_slider game_type="recommended"]');?>
+                    
+                    <div class="col-12 col-md-11 col-xl-10">
+                        <div class="game-result-listing">
+                            <?= do_shortcode('[game_result_board result_board="deposit"]');?>
+                            <?= do_shortcode('[game_result_board result_board="withdrawal"]');?>
+                            <?= do_shortcode('[game_result_board result_board="top_winners"]');?>
+                        </div>
+                    </div>
+                </div>
 
-		<div class="elementor-page-content"><?php the_content(); ?></div>
+                <div class="section py-4">
+                    <div class="section-inner py-4">
+                        <div class="col-12 col-md-11 col-xl-10 mx-auto">
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="http://localhost:8080/singaporeonlinecasino.info/wp-content/uploads/2026/02/desktop-bottom-sg-en.webp">
+                                <img src="http://localhost:8080/singaporeonlinecasino.info/wp-content/uploads/2026/02/mobile-bottom-sg-en.webp"/>
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <?php } ?>
+            <div class="elementor-page-content"><?php the_content(); ?></div>
 
 		<?php astra_primary_content_bottom(); ?>
 

@@ -20,16 +20,6 @@ $(document).ready(function() {
         }
     });
 
-    // <li class="menu-item menu-item-lvl2 text-0-9 text-weight-400 text-uppercase pr-2 mr-4 position-relative live-dealer tag tag-hot" data-game-type="live-dealer" data-tag="hot">
-    //     <a href="https://eupphuat.com/live-casino" role="button">Live Casino</a>
-    // </li>
-    
-    // <li class="menu-item menu-item-lvl3 text-0-9 text-weight-400 text-uppercase text-center position-relative w-100 text-center tag tag-hot" data-tag="hot">
-    //     <a href="https://eupphuat.com/yeebet/play/30" title="EU9 Casino">
-    //         <img src="https://ano20.eucdnex.com/public/assets/provider/live-dealer/eu9_casino.webp" alt="EU9 Casino" width="100"/>
-    //         <span class="d-none hide">EU9 Casino</span>
-    //     </a>
-    // </li>
     var $sidemenu_banner = null;
     var $home_introduction_banner = null;
     if( $('.sidemenu-banner.swiper')[0] ) {
@@ -76,5 +66,58 @@ $(document).ready(function() {
             $navbar = $side_menu.siblings('.navbar');
         $navbar.removeClass('navbar-opened');
         $side_menu.removeClass('open');
+    });
+
+    $('.gpSlider.swiper').each(function() {
+        var $slider = $(this);
+        new Swiper($slider[0], {
+            slidesPerView: "auto",
+            spaceBetween: 16,
+            loop: true,
+            breakpoints: {
+                0: {
+                    slidesOffsetBefore: 24,
+                    slidesOffsetAfter: 24,
+                },
+                768: {
+                    slidesOffsetBefore: 0,
+                    slidesOffsetAfter: 0,
+                }
+            }
+        });
+    });
+
+    $('.result-board.swiper').each(function() {
+        var $slider = $(this),
+            $speed = 300,
+            $autoplay = false,
+            $autoplayTimeout = 8500,
+            $ppp = 3,
+            $spaceBetween = 24;
+        if( $slider.hasClass('infinite-swiper') ) {
+            $speed = 6000;
+            $autoplay = true;
+            $autoplayTimeout = 0;
+            $ppp = "auto";
+            $spaceBetween = 15;
+        }
+        new Swiper($slider[0], {
+            slidesPerView: $ppp,
+            speed: $speed,
+            autoplay: true ? {
+                delay: $autoplayTimeout,
+                disableOnInteraction: false,
+            } : false,
+            breakpoints: {
+                0: {
+                    slidesPerView: "auto",
+                    spaceBetween: 15,
+                },
+                768: {
+                    slidesPerView: $ppp,
+                    spaceBetween: $spaceBetween,
+                }
+            }
+        });
     });
 });

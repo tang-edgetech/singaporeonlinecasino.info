@@ -56,6 +56,12 @@ body::-webkit-scrollbar-thumb {
     background-color: #ccc;
     border-radius: 1.25rem;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+.site-content .ast-container {
+    flex-wrap: wrap;
+}
 .text-0-2 {
     font-size: .2rem
 }
@@ -497,14 +503,14 @@ body hr {
 .elementor-widget-text-editor p {
     margin: 0;
 }
-.elementor-widget-text-editor p+ul, .elementor-widget-text-editor p+ol {
+.elementor-widget-text-editor p+ul, .elementor-widget-text-editor p+ol, .elementor-text-editor > p+ul, .elementor-text-editor > p+ol {
     margin-top: 0.625rem;
     margin-bottom: 1.5rem;
 }
-.elementor-widget-text-editor > ul, .elementor-widget-text-editor > ol {
+.elementor-widget-text-editor > ul, .elementor-widget-text-editor > ol, .elementor-text-editor > ul, .elementor-text-editor > ol {
     margin-left: 0;
 }
-.elementor-widget-text-editor > ul:last-child, .elementor-widget-text-editor > ol:last-child {
+.elementor-widget-text-editor > ul:last-child, .elementor-widget-text-editor > ol:last-child, .elementor-text-editor > ul:last-child, .elementor-text-editor > ol:last-child {
     margin-bottom: 0;
 }
 .eael-simple-menu-container {
@@ -539,6 +545,105 @@ body hr {
 .swiper-introduction-banner .intro-banner-pagination.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: #fff;
 }
+.gpSlider .gp-item {
+    width: 200px;
+}
+.gpSlider .gp-thumbnail, .gpSlider .gp-thumbnail img {
+    display: block;
+    width: 100%;
+}
+.gpSlider .gp-thumbnail {
+    height: 167px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.gpSlider .gp-thumbnail img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.gpSlider .gp-content .game-title {
+    font-size: 1rem;
+    line-height: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+}
+.homepage-pre-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.slider-header-title {
+    color: #fff;
+    font-size: 1.75rem;
+    line-height: 4rem;
+}
+.game-result-listing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.game-result-listing > * {
+    display: block;
+    width: 100%;
+}
+.bg-hot-promo, .bg-shade-grey {
+    background-color: #292421;
+}
+.result-board.swiper.infinite-swiper .swiper-slide, .board-thumbnail {
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+.result-board.swiper.infinite-swiper .swiper-slide {
+    background-color: #000;
+}
+.result-board.swiper.infinite-swiper .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+.result-board.swiper.infinite-swiper .swiper-slide {
+    width: 160px;
+}
+.game-header-title {
+    font-weight: 600;
+}
+.board-title {
+    color: #505050;
+    line-height: 1.5rem;
+}
+.table-wrapper {
+    border-radius: 0.625rem;
+    background-color: #292421;
+}
+.table, .table td, .table th {
+    border-collapse: collapse;
+    border: none;
+}
+.table-wrapper .table td, .table-wrapper .table th {
+    padding: 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+.table-wrapper .table thead td, .table-wrapper .table thead th {
+    color: #6e6e6e;
+}
+.table-wrapper .table tr {
+    background-color: #292421;
+}
+.table-wrapper .table tbody tr:nth-child(odd) {
+    background-color: #0a0a0a;
+}
+.table-wrapper .table tbody th, .table-wrapper .table tbody td {
+    padding: 0.313rem;
+}
+@media (max-width: 767px) {
+
+}
 @media (min-width: 768px) {
     .close-side-menu {
         left: auto;
@@ -548,6 +653,12 @@ body hr {
         width: 100%;
         max-width: 350px;
     }
+    .game-result-listing > div:nth-child(1), .game-result-listing > div:nth-child(2) {
+        max-width: calc( 50% - 1rem );
+    }
+    .game-result-listing > div:nth-child(3) {
+        max-width: 100%;
+    }
 }
 @media (min-width: 1200px) {
     .ast-plain-container.ast-no-sidebar #primary {
@@ -556,5 +667,14 @@ body hr {
     }
     .footer-menu-navigation .eael-simple-menu .menu-item:first-child a {
         padding-left: 0!important;
+    }
+    .game-result-listing {
+        flex-wrap: nowrap;
+    }
+    .game-result-listing > div:nth-child(1), .game-result-listing > div:nth-child(2) {
+        max-width: 25%;
+    }
+    .game-result-listing > div:nth-child(3) {
+        max-width: 50%;
     }
 }

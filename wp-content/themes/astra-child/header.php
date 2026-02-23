@@ -30,11 +30,49 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 ?>
 <?php wp_head(); ?>
 <?php astra_head_bottom(); ?>
+<?php
+if ( \Elementor\Plugin::$instance->editor->is_edit_mode() || \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
+?>  
+	<style type="text/css" id="hajimi">
+		.elementor-widget-text-editor > * {
+			font-family: inherit;
+			font-size: inherit;
+			line-height: inherit;
+			font-weight: inherit;
+			letter-spacing: inherit;
+			text-decoration: inherit;
+			text-transform: inherit;
+			color: inherit;
+		}
+		.elementor-widget-text-editor > a, .elementor-widget-text-editor p > a {
+			color: #ff0031;
+		}
+		.elementor-widget-text-editor > a:hover, .elementor-widget-text-editor p > a:hover {
+			color: #666;
+		}
+		.elementor-widget-text-editor p {
+			margin: 0;
+		}
+		.elementor-widget-text-editor p+ul, .elementor-widget-text-editor p+ol, .elementor-text-editor > p+ul, .elementor-text-editor > p+ol {
+			margin-top: 0.625rem;
+			margin-bottom: 1.5rem;
+		}
+		.elementor-widget-text-editor > ul, .elementor-widget-text-editor > ol, .elementor-text-editor > ul, .elementor-text-editor > ol {
+			margin-left: 0;
+		}
+		.elementor-widget-text-editor > ul:last-child, .elementor-widget-text-editor > ol:last-child, .elementor-text-editor > ul:last-child, .elementor-text-editor > ol:last-child {
+			margin-bottom: 0;
+		}
+	</style>
+<?php
+}
+?>
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
+
 
 <a
 	class="skip-link screen-reader-text"

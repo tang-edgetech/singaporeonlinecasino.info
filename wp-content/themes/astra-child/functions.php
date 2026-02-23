@@ -219,3 +219,226 @@ function add_icon_before_menu_title($title, $item, $args, $depth) {
     return (string) $title;
 }
 add_filter('nav_menu_item_title', 'add_icon_before_menu_title', 10, 4);
+
+function game_provider_slider_shortcode($atts) {
+    $atts = shortcode_atts(
+        array(
+            'game_type' => 'default'
+        ),
+        $atts,
+        'game_provider_slider'
+    );
+    $game_type = sanitize_text_field( $atts['game_type'] );
+    $game_title = '';
+    $game_data = '';
+    if( $game_type == 'slots' ) {
+        $game_title = 'Slots';
+        $game_data = '[{"title":"Double Fortune","image":"https://cny.fujicdnx.net/public/storage/game_api/pgslot/en/double_fortune_desktop.png"},{"title":"Zeus of Olympus","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/zeus_of_olympus_desktop.png"},{"title":"Sweet Bonanza Super Scatter","image":"https://cny.fujicdnx.net/public/storage/game_api/pragmaticplay/en/sweet_bonanza_super_scatter_desktop.png"},{"title":"Eternal Abundance","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/eternal_abundance_desktop.png"},{"title":"Chinese New Year Moreways","image":"https://cny.fujicdnx.net/public/storage/game_api/fachai/en/chinese_new_year_moreways_desktop.png"},{"title":"Mahjong Wins Gong Xi Fa Cai","image":"https://cny.fujicdnx.net/public/storage/game_api/pragmaticplay/en/mahjong_wins__gong_xi_fa_cai_desktop.png"},{"title":"Happy Buddha","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/happy_buddha_desktop.png"},{"title":"Mahjong Wins","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/mahjong_wins_desktop.png"},{"title":"Gates of Olympus Super Scatter","image":"https://cny.fujicdnx.net/public/storage/game_api/pragmaticplay/en/gates_of_olympus_super_scatter_desktop.png"},{"title":"Duo Cai Duo Fu","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/duo_cai_duo_fu_desktop.png"},{"title":"Neko Wins","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/neko_wins_desktop.png"}]';
+    }
+    else if( $game_type == 'live-casino') {
+        $game_title = 'Live Casino';
+        $game_data = '[{"title":"Monopoly","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/MONOPOLY.png"},{"title":"Lightning Roulette","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/lightning_roullet0.jpg"},{"title":"Mega Ball","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/Mega_Ball.png"},{"title":"Sweet Bonanza Candyland","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/bonanza0.jpg"},{"title":"Mega Wheel","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/mega0.jpg"},{"title":"Cash or Crash","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/Cash_or_Crash.png"},{"title":"Crazy Time","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/crazy_time.png"},{"title":"Mega Sic Bo","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/sic0_(1).jpg"},{"title":"Lightning Baccarat","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/lightningbaccarat.png"},{"title":"Speed Baccarat","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/speed_baccarat.png"},{"title":"Lightning Dice","image":"https://ano20.eucdnex.com/public/storage/product_sorting/live-dealer/lightning_dice0.jpg"},{"title":"Funky Time","image":"https://cny.fujicdnx.net/public/storage/game_api/evo/en/funky_time_desktop.png"}]';
+    }
+    else if( $game_type == 'recommended') {
+        $game_title = 'Recommended';
+        $game_data = '[{"title":"Eternal Abundance","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/eternal_abundance_desktop.png"},{"title":"Mahjong Wins 2","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/mahjong_wins_2_desktop.png"},{"title":"Dragon Heiress","image":"https://cny.fujicdnx.net/public/storage/game_api/marbula2/en/dragon_heiress_desktop.png"},{"title":"Prosperity Fortune Tree","image":"https://cny.fujicdnx.net/public/storage/game_api/pgslot/en/prosperity_fortune_tree_desktop.png"},{"title":"Mahjong Wins  Gong Xi Fa Cai","image":"https://cny.fujicdnx.net/public/storage/game_api/pragmaticplay/en/mahjong_wins__gong_xi_fa_cai_desktop.png"},{"title":"Jade Coins","image":"https://cny.fujicdnx.net/public/storage/game_api/endorphina/en/jadecoins_desktop.png"},{"title":"Speed Baccarat","image":"https://ano20.eucdnex.com/public/storage/product_sorting/popular_game/speed_baccarat.png"},{"title":"Lightning Baccarat","image":"https://ano20.eucdnex.com/public/storage/product_sorting/popular_game/evolution_lightning_baccarat.png"},{"title":"Crazy Time","image":"https://ano20.eucdnex.com/public/storage/product_sorting/popular_game/crazy_time.png"},{"title":"Marbula 2-Classic","image":"https://ano20.eucdnex.com/public/storage/product_sorting/popular_game/marbula2.jpg"},{"title":"Aviator","image":"https://cny.fujicdnx.net/public/storage/game_api/spribe/en/aviator_desktop.png"},{"title":"Super Sic Bo","image":"https://ano20.eucdnex.com/public/storage/product_sorting/popular_game/evolution-super-sic-bo-ps.jpg"}]';
+    }
+
+    ob_start();
+    if( !empty($game_data) ) {
+
+        $games = json_decode( $game_data, true );
+    ?>
+    <div class="col-12 col-xl-10 mx-auto">
+        <div class="game-provider-slider">
+            <div class="slider-header px-4 px-md-0">
+                <h2 class="slider-header-title"><?= $game_title;?></h2>
+            </div>
+            <div class="slider-body">
+                <div class="gpSlider swiper">
+                    <div class="swiper-wrapper">
+                    <?php foreach( $games as $item ) { 
+                        $column_title = $item['title'];
+                        $column_image = $item['image'];
+                    ?> 
+                        <div class="swiper-slide gp-item">
+                            <div class="swiper-slide-inner gp-item-inner">
+                                <div class="gp-thumbnail"><img src="<?= $column_image;?>"/></div>
+                                <div class="gp-content mt-2 pt-1 mb-2 px-0">
+                                    <p class="game-title p-0 m-0 text-weight-400 text-default text-center"><?= $column_title;?></p>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+    }
+    else {
+    ?>
+        <div class="alert alert-warning" role="alert">The game type is required!</div>
+    <?php
+    }
+    return ob_get_clean();
+}
+add_shortcode('game_provider_slider', 'game_provider_slider_shortcode');
+
+function game_result_board_shortcode($atts) {
+    $atts = shortcode_atts(
+        array(
+            'result_board' => 'default'
+        ),
+        $atts,
+        'game_result_board'
+    );
+    $result_board = sanitize_text_field( $atts['result_board'] );
+    $game_title = '';
+    $game_slug = '';
+    $game_data = '';
+    if( $result_board == 'deposit' ) {
+        $game_title = 'Recent Deposit';
+        $game_slug = 'deposit';
+    }
+    else if( $result_board == 'withdrawal' ) {
+        $game_title = 'Recent Withdrawal';
+        $game_slug = 'withdraw';
+    }
+    else if( $result_board == 'top_winners' ) {
+        $game_title = 'Top Winner';
+        $game_slug = 'top-winners';
+        $game_data = '[{"img":"https://eupphuat.com/assets/provider/evo.png","title":"***439***","price":"$ 10,030.30"},{"img":"https://eupphuat.com/assets/provider/dreamgame.png","title":"***195***","price":"$ 2,000.00"},{"img":"https://eupphuat.com/assets/provider/ssport.png","title":"***inm***","price":"$ 1,803.66"},{"img":"https://eupphuat.com/assets/provider/endorphina.png","title":"***514***","price":"$ 1,186.25"},{"img":"https://eupphuat.com/assets/provider/qtech.png","title":"***077***","price":"$ 707.20"},{"img":"https://eupphuat.com/assets/provider/fachaiv2.png","title":"***lim***","price":"$ 613.20"},{"img":"https://eupphuat.com/assets/provider/marbula2.png","title":"***huk***","price":"$ 613.10"},{"img":"https://eupphuat.com/assets/provider/sagaming.png","title":"***nna***","price":"$ 573.00"},{"img":"https://eupphuat.com/assets/provider/spribe.png","title":"***ill***","price":"$ 329.71"},{"img":"https://eupphuat.com/assets/provider/bngv2.png","title":"***ete***","price":"$ 286.70"}]';
+    }
+    
+    ob_start();
+    $data = json_decode($game_data, true);
+    ?>
+        <div class="game-board type-<?= $game_slug;?>">
+            <div class="game-header mb-2 mb-md-2 mb-lg-3 px-4 px-md-0">
+                <h3 class="game-header-title text-white"><?= $game_title;?></h3>
+            </div>
+            <div class="game-body<?= ($result_board !== 'top_winners') ? ' px-4 px-md-0' : '';?>">
+            <?php
+            if( $result_board == 'top_winners' ) {
+            ?>
+                <div class="top_winner px-4 px-md-0">
+                    <div class="result-board swiper static mb-3">
+                        <div class="swiper-wrapper">
+                        <?php
+                        for($i=0;$i<3;$i++) {
+                            $image = $data[$i]['img'];
+                            $title = $data[$i]['title'];
+                            $price = $data[$i]['price'];
+                        ?>
+                            <div class=" swiper-slide board-item p-1">
+                                <div class="board-item-inner">
+                                    <div class="board-thumbnail"><img src="<?= $image;?>"/></div>
+                                    <div class="board-body">
+                                        <div class="board-title"><?= $title;?></div>
+                                        <div class="board-price"><?= $price;?></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php
+                        }
+                        ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-board swiper infinite-swiper bg-shade-grey py-2">
+                    <div class="swiper-wrapper">
+                    <?php
+                    for($j=2;$j<count($data);$j++) {
+                        $image = $data[$j]['img'];
+                        $title = $data[$j]['title'];
+                        $price = $data[$j]['price'];
+                    ?>
+                        <div class="swiper-slide board-item p-1">
+                            <div class="board-item-inner">
+                                <div class="board-thumbnail"><img src="<?= $image;?>"/></div>
+                                <div class="board-body">
+                                    <div class="board-title"><?= $title;?></div>
+                                    <div class="board-price"><?= $price;?></div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                    }
+                    ?>
+                    </div>
+                </div>
+            <?php
+            }
+            else {
+            ?>
+                <div class="table-wrapper px-lg-3 px-1 px-md-2 pb-2 pt-lg-1">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>USERNAME</th>
+                                <th>AMOUNT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <?php for( $i=0;$i<5;$i++ ) { 
+                            $unhashed_title = generateRandomString();
+                            $title = maskString($unhashed_title);
+                            $price = randomDeposit();
+                            if( $result_board == 'withdrawal' ) {
+                                $price = randomWithdraw();
+                            }
+                        ?>
+                            <tr>
+                                <td><?= $title;?></td>
+                                <td><?= $price;?></td>
+                            </tr>
+                        <?php } ?>
+                        </tbody>
+                    </table>
+                </div>
+            <?php
+            }
+            ?>
+            </div>
+        </div>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('game_result_board', 'game_result_board_shortcode');
+
+function generateRandomString($length = 15) {
+    $length = rand(5, min(15, $length));
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyz';
+    $charactersLength = strlen($characters);
+    $randomString = '';
+    for ($i = 0; $i < $length; $i++) {
+        $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    return $randomString;
+}
+
+function maskString($input) {
+    $length = strlen($input);
+
+    if ($length <= 3) {
+        return $input;
+    }
+
+    $firstTwo = substr($input, 0, 2);
+    $last = $input[$length - 1];
+    $masked = str_repeat('*', $length - 3);
+
+    return $firstTwo . $masked . $last;
+}
+
+function randomDeposit() {
+    $amount = rand(50, 10000);
+    return number_format($amount, 2, '.', '');
+}
+
+function randomWithdraw() {
+    $amount = mt_rand(10000, 500000) / 100;
+    return number_format($amount, 2, '.', '');
+}
