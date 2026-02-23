@@ -26,6 +26,7 @@ add_action( 'elementor/elements/categories_registered', function( $elements_mana
 add_action( 'elementor/widgets/register', function( $widgets_manager ) {
     require_once( __DIR__ . '/widgets/hajimi_copyright_label.php' );
     require_once( __DIR__ . '/widgets/hajimi_header_navigation.php' );
+    require_once( __DIR__ . '/widgets/hajimi_responsive_image.php' );
 
     $widgets_manager->register( new \Hajimi_Copyright_Label_Widget() );
     $widgets_manager->register( new \Hajimi_Header_Navigation_Widget() );
