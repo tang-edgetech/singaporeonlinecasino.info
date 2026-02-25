@@ -101,10 +101,29 @@ function hajimi_custom_header_navigation($atts) {
                             echo '<h1 class="site-title">' . esc_html( get_bloginfo('name') ) . '</h1>';
                         } ?>
                         </a>
+                    </div>
+                    <div class="navbar-col col-right d-flex justify-content-center align-items-center w-100">
                         <button type="button" class="menu-toggler p-0 bg-transparent">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             <span class="d-none hidden">Menu Toggle</span>
                         </button>
+                        <?php
+                        $side_menu = get_field('side_menu', 'option');
+                        $call_to_action = $side_menu['call_to_action'];
+                        ?>
+                        <div class="call-to-action d-none d-xl-flex align-items-center gap-xl-2">
+                            <?php foreach($call_to_action as $btn) {
+                                $button = $btn['button_link'];
+                                $button_link = $button['url'];
+                                $button_color = $btn['button_color'];
+                                if( empty($button_link) ) { 
+                                    $button_link = 'javascript:void(0);';
+                                }
+                            ?>
+                                <a href="<?= $button_link;?>" class="btn btn-<?= $button_color['value'];?>" target="<?= $button['target'];?>"><span><?= $button['title'];?></span></a>
+                            <?php } ?>
+                            <button type="button" class="btn-pll language-switcher"><span class="d-none hidden">Language</span><?= '<img src="'.get_stylesheet_directory_uri() . '/assets/iamges/flags/sg.svg"/>';?></button>
+                        </div>
                     </div>
                 </div>
             </div>
