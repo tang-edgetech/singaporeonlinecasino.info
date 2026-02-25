@@ -561,6 +561,7 @@ body hr {
     height: 167px;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
+    overflow: hidden;
 }
 .gpSlider .gp-thumbnail img {
     height: 100%;
@@ -739,7 +740,12 @@ body hr {
     width: 100%;
 }
 @media (max-width: 767px) {
-
+    .gpSlider .gp-item {
+        width: 127px;
+    }
+    .gpSlider .gp-thumbnail {
+        height: 83px;
+    }
 }
 @media (min-width: 768px) {
     .close-side-menu {
