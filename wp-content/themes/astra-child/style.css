@@ -752,6 +752,18 @@ body hr {
     .slider-header-title {
         line-height: 2.25rem;
     }
+    #masthead .navbar-brand {
+        max-height: 47px;
+    }
+    .navbar-brand img {
+        width: 86px;
+        min-width: 86px;
+    }
+    .swiper-introduction-banner .intro-banner-pagination.swiper-pagination-bullets {
+        position: absolute;
+        top: 0;
+        bottom: auto;
+    }
 }
 @media (min-width: 768px) {
     .close-side-menu {

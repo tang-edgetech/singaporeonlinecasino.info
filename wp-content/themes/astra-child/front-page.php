@@ -26,7 +26,7 @@ get_header(); ?>
         <?php
         if ( \Elementor\Plugin::$instance->editor->is_edit_mode() || \Elementor\Plugin::$instance->preview->is_preview_mode() ) {
         ?> 
-            <div class="col-11 col-md-10 mx-auto mt-3 mt-md-4"><div class="alert alert-warning" role="alert">Frontend content is hide on this preview editor!</div></div>
+            <div class="col-11 col-md-10 mx-auto mt-0 mt-md-4"><div class="alert alert-warning" role="alert">Frontend content is hide on this preview editor!</div></div>
         <?php
         }
         else {
