@@ -624,6 +624,9 @@ body hr {
     border-radius: 0.625rem;
     background-color: #292421;
 }
+.table, table.table {
+    margin-bottom: 0;
+}
 .table, .table td, .table th {
     border-collapse: collapse;
     border: none;

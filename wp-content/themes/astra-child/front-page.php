@@ -90,7 +90,7 @@ get_header(); ?>
 
                 <div class="section py-4">
                     <div class="section-inner py-4">
-                        <div class="col-12 col-md-11 col-xl-10 mx-auto">
+                        <div class="col-12 col-md-11 col-xl-10 px-4 px-md-0 mx-auto">
                             <picture>
                                 <source media="(min-width: 1200px)" srcset="<?= home_url();?>/wp-content/uploads/2026/02/desktop-bottom-sg-en.webp">
                                 <img src="<?= home_url();?>/wp-content/uploads/2026/02/mobile-bottom-sg-en.webp"/>
