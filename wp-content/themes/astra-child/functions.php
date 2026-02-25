@@ -102,7 +102,7 @@ function hajimi_custom_header_navigation($atts) {
                         } ?>
                         </a>
                     </div>
-                    <div class="navbar-col col-right d-flex justify-content-center align-items-center w-100">
+                    <div class="navbar-col col-right d-flex justify-content-end align-items-center w-100">
                         <button type="button" class="menu-toggler p-0 bg-transparent">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             <span class="d-none hidden">Menu Toggle</span>
@@ -111,7 +111,7 @@ function hajimi_custom_header_navigation($atts) {
                         $side_menu = get_field('side_menu', 'option');
                         $call_to_action = $side_menu['call_to_action'];
                         ?>
-                        <div class="call-to-action d-none d-xl-flex align-items-center gap-xl-2">
+                        <div class="call-to-action d-none d-xl-flex align-items-center gap-xl-2 ps-2">
                             <?php foreach($call_to_action as $btn) {
                                 $button = $btn['button_link'];
                                 $button_link = $button['url'];
@@ -122,7 +122,7 @@ function hajimi_custom_header_navigation($atts) {
                             ?>
                                 <a href="<?= $button_link;?>" class="btn btn-<?= $button_color['value'];?>" target="<?= $button['target'];?>"><span><?= $button['title'];?></span></a>
                             <?php } ?>
-                            <button type="button" class="btn-pll language-switcher"><span class="d-none hidden">Language</span><?= '<img src="'.get_stylesheet_directory_uri() . '/assets/iamges/flags/sg.svg"/>';?></button>
+                            <button type="button" class="btn-pll language-switcher p-0"><span class="d-none hidden">Language</span><?= '<img src="'.get_stylesheet_directory_uri() . '/assets/images/flags/sg.svg"/>';?></button>
                         </div>
                     </div>
                 </div>
