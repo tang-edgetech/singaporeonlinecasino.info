@@ -723,6 +723,9 @@ body hr {
     height: calc(100% - 10px);
     background: linear-gradient(90deg, #b00022, #ff0031);
 }
+.aside-mspuiyi:hover:after {
+    width: 100%;
+}
 .aside-mspuiyi .mspuiyi-text-wrapper {
     white-space: nowrap;
     top: 10px;
