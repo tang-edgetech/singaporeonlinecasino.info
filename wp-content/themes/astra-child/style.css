@@ -747,7 +747,10 @@ body hr {
         height: 83px;
     }
     .homepage-pre-content {
-        gap: 0.625rem
+        gap: 1rem
+    }
+    .slider-header-title {
+        line-height: 2.25rem;
     }
 }
 @media (min-width: 768px) {

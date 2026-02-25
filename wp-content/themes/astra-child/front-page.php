@@ -80,7 +80,7 @@ get_header(); ?>
                     <?= do_shortcode('[game_provider_slider game_type="recommended"]');?>
                     
                     <div class="col-12 col-md-11 col-xl-10">
-                        <div class="game-result-listing">
+                        <div class="game-result-listing pt-4 pt-md-0">
                             <?= do_shortcode('[game_result_board result_board="deposit"]');?>
                             <?= do_shortcode('[game_result_board result_board="withdrawal"]');?>
                             <?= do_shortcode('[game_result_board result_board="top_winners"]');?>
