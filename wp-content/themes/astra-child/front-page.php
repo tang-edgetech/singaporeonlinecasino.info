@@ -32,7 +32,7 @@ get_header(); ?>
         else {
             $homepage = get_field('homepage', 'option');
             $introduction_banner = $homepage['introduction_banner'];
-            echo '<div class="col-12 col-md-11 col-xl-10 mx-auto px-4 px-md-0">';
+            echo '<div class="col-12 col-md-11 col-xl-10 mx-auto px-0">';
                 echo '<div class="swiper swiper-introduction-banner mt-3 mt-md-4">';
                 if( !empty($introduction_banner) ) {
                         echo '<div class="swiper-wrapper">';
@@ -57,20 +57,22 @@ get_header(); ?>
                 
             echo '</div>';
             ?>
-                <div class="mobile-cta d-xl-none">
-                    <?php 
-                    $side_menu = get_field('side_menu', 'option');
-                    $call_to_action = $side_menu['call_to_action'];
-                    foreach($call_to_action as $btn) {
-                        $button = $btn['button_link'];
-                        $button_link = $button['url'];
-                        $button_color = $btn['button_color'];
-                        if( empty($button_link) ) { 
-                            $button_link = 'javascript:void(0);';
-                        }
-                    ?>
-                        <a href="<?= $button_link;?>" class="btn btn-<?= $button_color['value'];?>" target="<?= $button['target'];?>"><span><?= $button['title'];?></span></a>
-                    <?php } ?>
+                <div class="col-12 col-md-11 col-xl-10 mx-auto px-0">
+                    <div class="mobile-cta d-xl-none">
+                        <?php 
+                        $side_menu = get_field('side_menu', 'option');
+                        $call_to_action = $side_menu['call_to_action'];
+                        foreach($call_to_action as $btn) {
+                            $button = $btn['button_link'];
+                            $button_link = $button['url'];
+                            $button_color = $btn['button_color'];
+                            if( empty($button_link) ) { 
+                                $button_link = 'javascript:void(0);';
+                            }
+                        ?>
+                            <a href="<?= $button_link;?>" class="btn btn-<?= $button_color['value'];?>" target="<?= $button['target'];?>"><span><?= $button['title'];?></span></a>
+                        <?php } ?>
+                    </div>
                 </div>
                 <div class="homepage-pre-content">
                     <?= do_shortcode('[game_provider_slider game_type="slots"]');?>
