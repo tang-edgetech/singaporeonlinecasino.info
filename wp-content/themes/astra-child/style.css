@@ -431,12 +431,12 @@ body hr {
 .close-side-menu, .close-side-menu:hover, .close-side-menu:focus {
     border-color: #fff;
 }
-.sidemenu-buttons, .sidemenu-navigation .nav {
+.sidemenu-buttons, .sidemenu-navigation .nav, .mobile-cta {
     display: grid;
     gap: 0;
     grid-template-columns: repeat(2, 1fr);
 }
-.sidemenu-buttons .btn {
+.sidemenu-buttons .btn, .mobile-cta .btn {
     display: block;
     padding: 1rem 0.75rem;
     font-size: 1.25rem;
@@ -447,10 +447,10 @@ body hr {
     color: #fff;
     border-radius: 0;
 }
-.sidemenu-buttons .btn.btn-red {
+.sidemenu-buttons .btn.btn-red, .mobile-cta .btn.btn-red {
     background-color: #ff0031;
 }
-.sidemenu-buttons .btn:hover {
+.sidemenu-buttons .btn:hover, .mobile-cta .btn:hover {
     background-color: #fff;
     outline: none!important;
     border: none!important;

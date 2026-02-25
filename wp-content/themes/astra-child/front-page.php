@@ -38,11 +38,13 @@ get_header(); ?>
                         echo '<div class="swiper-wrapper">';
                         foreach($introduction_banner as $banner) {
                             $banner_image = $banner['banner_image'];
+                            $banner_image_mobile = $banner['banner_image_mobile'];
                             $banner_link = $banner['banner_link'];
                         ?>
                             <div class="swiper-slide">
                                 <?php if( !empty($banner_link['url']) ) : ?><a href="<?= $banner_link['url'];?>"><?php endif;?>
-                                    <img src="<?= $banner_image['url'];?>" class="img-fluid w-100" alt="<?= $banner_image['alt'];?>"/>
+                                    <source srcset="<?= $banner_image['url'];?>" media="(min-width: 1200px)"/>
+                                    <img src="<?= $banner_image_mobile['url'];?>" class="img-fluid w-100" alt="<?= $banner_image['alt'];?>"/>
                                 <?php if( !empty($banner_link['url']) ) : ?></a><?php endif;?>
                             </div>
                         <?php
@@ -51,10 +53,22 @@ get_header(); ?>
                         echo '<div class="intro-banner-pagination"></div>';
                     echo '</div>';
                 }
-                echo '<div class="d-none d-lg-block"><hr class="mt-5"></div>';
+                echo '<div class="d-none d-xl-block"><hr class="mt-5"></div>';
                 
             echo '</div>';
             ?>
+                <div class="mobile-cta d-xl-none">
+                    <?php foreach($call_to_action as $btn) {
+                        $button = $btn['button_link'];
+                        $button_link = $button['url'];
+                        $button_color = $btn['button_color'];
+                        if( empty($button_link) ) { 
+                            $button_link = 'javascript:void(0);';
+                        }
+                    ?>
+                        <a href="<?= $button_link;?>" class="btn btn-<?= $button_color['value'];?>" target="<?= $button['target'];?>"><span><?= $button['title'];?></span></a>
+                    <?php } ?>
+                </div>
                 <div class="homepage-pre-content">
                     <?= do_shortcode('[game_provider_slider game_type="slots"]');?>
                     <?= do_shortcode('[game_provider_slider game_type="live-casino"]');?>
