@@ -79,7 +79,7 @@ $(document).ready(function() {
                     slidesOffsetBefore: 24,
                     slidesOffsetAfter: 24,
                 },
-                768: {
+                1200: {
                     slidesOffsetBefore: 0,
                     slidesOffsetAfter: 0,
                 }
