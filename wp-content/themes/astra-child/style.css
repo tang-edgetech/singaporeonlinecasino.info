@@ -693,6 +693,41 @@ body hr {
     border: 0.125rem solid #fff;
     overflow: hidden;
 }
+.aside-mspuiyi {
+    position: fixed;
+    top: 108px;
+    z-index: 20;
+    transition: all .4s ease !important;
+}
+.aside-mspuiyi .puiyi-img {
+    max-width: 95px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 26px;
+}
+.aside-mspuiyi:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 13px;
+    width: 86px;
+    height: calc(100% - 10px);
+    background: linear-gradient(90deg, #b00022, #ff0031);
+}
+.aside-mspuiyi .mspuiyi-text-wrapper {
+    white-space: nowrap;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+}
+.aside-mspuiyi:hover .mspuiyi-text-wrapper {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
 @media (max-width: 767px) {
 
 }

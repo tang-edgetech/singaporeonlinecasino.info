@@ -472,3 +472,19 @@ function randomWithdraw() {
     $amount = mt_rand(10000, 500000) / 100;
     return number_format($amount, 2, '.', '');
 }
+
+function mspuiyi_card() {
+?>
+    <div class="aside-mspuiyi d-flex position-relative">
+        <img class="w-100 puiyi-img loading" src="<?= get_stylesheet_directory_uri();?>/assets/images/miss-puiyi-left.png" alt="Miss Puiyi" width="100" height="auto" data-was-processed="true">
+        <div class="mspuiyi-text-wrapper text-white position-relative pr-3 pt-3 pb-3 pl-2">
+            <p class="m-0 p-0 text-0-8">萧佩儿</p>
+            <p class="m-0 p-0 text-weight-600 text-1-2">MS PUI YI</p>
+            <p class="m-0 p-0 text-0-8">EU9 Brand Ambassador 2021/22</p>
+
+            <img class="w-100 puiyi-sign position-absolute loading" src="/assets/miss-puiyi-sign.png?27092023" alt="Miss Puiyi" width="50" height="auto" data-was-processed="true">
+        </div>
+    </div>
+<?php
+}
+add_action( 'wp_body_open', 'mspuiyi_card' );
