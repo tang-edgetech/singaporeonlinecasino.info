@@ -281,7 +281,7 @@ function game_provider_slider_shortcode($atts) {
     ?>
     <div class="col-12 col-xl-10 mx-auto">
         <div class="game-provider-slider">
-            <div class="slider-header px-4 px-md-0 col-md-11 mx-auto">
+            <div class="slider-header px-4 px-md-0 col-md-11 col-xl-12 mx-auto">
                 <h2 class="slider-header-title"><?= $game_title;?></h2>
             </div>
             <div class="slider-body">
