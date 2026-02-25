@@ -57,8 +57,8 @@ get_header(); ?>
                 
             echo '</div>';
             ?>
-                <div class="col-12 col-md-11 col-xl-10 mx-auto px-0">
-                    <div class="mobile-cta d-xl-none">
+                <div class="col-12 col-md-11 col-xl-10 mx-auto px-0 d-xl-none">
+                    <div class="mobile-cta">
                         <?php 
                         $side_menu = get_field('side_menu', 'option');
                         $call_to_action = $side_menu['call_to_action'];
