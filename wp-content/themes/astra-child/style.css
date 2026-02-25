@@ -685,6 +685,13 @@ body hr {
 .call-to-action .btn:hover::after {
     background: linear-gradient(90deg, #fff, #fff)!important;
 }
+.call-to-action .btn-pll {
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 1rem;
+    border: 0.125rem solid #fff;
+}
 @media (max-width: 767px) {
 
 }
