@@ -482,7 +482,7 @@ function mspuiyi_card() {
             <p class="m-0 p-0 text-weight-600 text-1-2">MS PUI YI</p>
             <p class="m-0 p-0 text-0-8">EU9 Brand Ambassador 2021/22</p>
 
-            <img class="w-100 puiyi-sign position-absolute loading" src="/assets/miss-puiyi-sign.png?27092023" alt="Miss Puiyi" width="50" height="auto" data-was-processed="true">
+            <img class="w-100 puiyi-sign position-absolute loading" src="<?= get_stylesheet_directory_uri();?>/assets/images/miss-puiyi-sign.png?27092023" alt="Miss Puiyi" width="50" height="auto" data-was-processed="true">
         </div>
     </div>
 <?php

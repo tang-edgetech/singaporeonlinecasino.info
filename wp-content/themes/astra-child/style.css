@@ -699,6 +699,13 @@ body hr {
     z-index: 20;
     transition: all .4s ease !important;
 }
+.aside-mspuiyi .puiyi-sign {
+    top: 6px;
+    right: 50%;
+    max-width: 50px;
+    -webkit-transform: translate(120%);
+    transform: translate(120%);
+}
 .aside-mspuiyi .puiyi-img {
     max-width: 95px;
     border-bottom-left-radius: 12px;
