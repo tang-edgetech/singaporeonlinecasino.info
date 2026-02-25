@@ -691,6 +691,7 @@ body hr {
     height: 1.75rem;
     border-radius: 1rem;
     border: 0.125rem solid #fff;
+    overflow: hidden;
 }
 @media (max-width: 767px) {
 

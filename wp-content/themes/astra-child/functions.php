@@ -111,7 +111,7 @@ function hajimi_custom_header_navigation($atts) {
                         $side_menu = get_field('side_menu', 'option');
                         $call_to_action = $side_menu['call_to_action'];
                         ?>
-                        <div class="call-to-action d-none d-xl-flex align-items-center gap-xl-2 ps-2">
+                        <div class="call-to-action d-none d-md-flex align-items-center gap-xl-2 ps-2">
                             <?php foreach($call_to_action as $btn) {
                                 $button = $btn['button_link'];
                                 $button_link = $button['url'];
