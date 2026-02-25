@@ -774,6 +774,18 @@ body hr {
         font-size: 1rem;
         line-height: 1.25rem;
     }
+    .game-result-listing {
+        gap: 1rem 0.5rem;
+    }
+    .game-header-title {
+        font-size: 1rem;
+    }
+    .game-result-listing > .game-board:not(:last-child) {
+        max-width: calc( 50% - 0.25rem );
+    }
+    .table-wrapper .table td, .table-wrapper .table th {
+        font-size: 0.625rem;
+    }
 }
 @media (min-width: 768px) {
     .close-side-menu {
