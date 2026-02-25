@@ -74,16 +74,8 @@ $(document).ready(function() {
             slidesPerView: "auto",
             spaceBetween: 16,
             loop: true,
-            breakpoints: {
-                0: {
-                    slidesOffsetBefore: 24,
-                    slidesOffsetAfter: 24,
-                },
-                1200: {
-                    slidesOffsetBefore: 0,
-                    slidesOffsetAfter: 0,
-                }
-            }
+            slidesOffsetBefore: 0,
+            slidesOffsetAfter: 0,
         });
     });
 

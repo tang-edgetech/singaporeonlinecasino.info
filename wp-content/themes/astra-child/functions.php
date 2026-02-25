@@ -91,7 +91,7 @@ function hajimi_custom_header_navigation($atts) {
 	?>
 	
         <nav class="navbar px-3 px-md-0 px-xl-0 pt-2 pb-0">
-            <div class="navbar-row d-flex justify-content-center">
+            <div class="navbar-row d-flex justify-content-center">  
                 <div class="col-12 col-md-11 d-flex justify-content-between align-items-center">
                     <div class="navbar-col col-left d-flex justify-content-between w-100">
                         <a href="<?= home_url();?>" class="navbar-brand p-0 m-0">
@@ -279,9 +279,9 @@ function game_provider_slider_shortcode($atts) {
 
         $games = json_decode( $game_data, true );
     ?>
-    <div class="col-12 col-xl-10 mx-auto">
+    <div class="col-12 col-md-11 col-xl-10 px-4 px-md-0 mx-auto">
         <div class="game-provider-slider">
-            <div class="slider-header px-4 px-md-0 col-md-11 col-xl-12 mx-auto">
+            <div class="slider-header">
                 <h2 class="slider-header-title"><?= $game_title;?></h2>
             </div>
             <div class="slider-body">

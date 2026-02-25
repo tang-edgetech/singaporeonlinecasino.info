@@ -750,7 +750,9 @@ body hr {
         gap: 1rem
     }
     .slider-header-title {
-        line-height: 2.25rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.75rem;
     }
     #masthead .navbar-brand {
         max-height: 47px;
@@ -758,6 +760,9 @@ body hr {
     .navbar-brand img {
         width: 86px;
         min-width: 86px;
+    }
+    .swiper-introduction-banner {
+        padding-top: 0.188rem;
     }
     .swiper-introduction-banner .intro-banner-pagination.swiper-pagination-bullets {
         position: absolute;
