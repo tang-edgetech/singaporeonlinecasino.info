@@ -58,7 +58,10 @@ get_header(); ?>
             echo '</div>';
             ?>
                 <div class="mobile-cta d-xl-none">
-                    <?php foreach($call_to_action as $btn) {
+                    <?php 
+                    $side_menu = get_field('side_menu', 'option');
+                    $call_to_action = $side_menu['call_to_action'];
+                    foreach($call_to_action as $btn) {
                         $button = $btn['button_link'];
                         $button_link = $button['url'];
                         $button_color = $btn['button_color'];
