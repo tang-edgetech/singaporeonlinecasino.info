@@ -766,7 +766,7 @@ body hr {
         width: 86px;
         min-width: 86px;
     }
-    .swiper-introduction-banner {
+    .swiper-introduction-banner.swiper {
         padding-top: 0.188rem;
     }
     .swiper-introduction-banner .intro-banner-pagination.swiper-pagination-bullets {
@@ -790,6 +790,7 @@ body hr {
     }
     .table-wrapper .table td, .table-wrapper .table th {
         font-size: 0.625rem;
+        line-height: 1rem;
     }
 }
 @media (min-width: 768px) {

@@ -81,7 +81,7 @@ get_header(); ?>
                     <?= do_shortcode('[game_provider_slider game_type="live-casino"]');?>
                     <?= do_shortcode('[game_provider_slider game_type="recommended"]');?>
                     
-                    <div class="col-12 col-md-11 col-xl-10 px-4 px-md-0">
+                    <div class="col-12 col-md-11 col-xl-10 px-3 px-md-0">
                         <div class="game-result-listing pt-4 pt-md-0">
                             <?= do_shortcode('[game_result_board result_board="deposit"]');?>
                             <?= do_shortcode('[game_result_board result_board="withdrawal"]');?>
@@ -92,7 +92,7 @@ get_header(); ?>
 
                 <div class="section py-4">
                     <div class="section-inner py-md-4">
-                        <div class="col-12 col-md-11 col-xl-10 px-4 px-md-0 mx-auto">
+                        <div class="col-12 col-md-11 col-xl-10 px-3 px-md-0 mx-auto">
                             <picture>
                                 <source media="(min-width: 1200px)" srcset="<?= home_url();?>/wp-content/uploads/2026/02/desktop-bottom-sg-en.webp">
                                 <img src="<?= home_url();?>/wp-content/uploads/2026/02/mobile-bottom-sg-en.webp"/>

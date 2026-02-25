@@ -279,7 +279,7 @@ function game_provider_slider_shortcode($atts) {
 
         $games = json_decode( $game_data, true );
     ?>
-    <div class="col-12 col-md-11 col-xl-10 px-4 px-md-0 mx-auto">
+    <div class="col-12 col-md-11 col-xl-10 px-3 px-md-0 mx-auto">
         <div class="game-provider-slider">
             <div class="slider-header">
                 <h2 class="slider-header-title"><?= $game_title;?></h2>
@@ -353,7 +353,7 @@ function game_result_board_shortcode($atts) {
             <?php
             if( $result_board == 'top_winners' ) {
             ?>
-                <div class="top_winner px-4 px-md-0">
+                <div class="top_winner px-3 px-md-0">
                     <div class="result-board swiper static mb-3">
                         <div class="swiper-wrapper">
                         <?php
