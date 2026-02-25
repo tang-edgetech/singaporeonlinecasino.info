@@ -769,6 +769,11 @@ body hr {
         top: 0;
         bottom: auto;
     }
+    .mobile-cta .btn {
+        padding: 0.75rem;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
 }
 @media (min-width: 768px) {
     .close-side-menu {
