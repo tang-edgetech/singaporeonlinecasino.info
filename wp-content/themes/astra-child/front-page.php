@@ -43,8 +43,10 @@ get_header(); ?>
                         ?>
                             <div class="swiper-slide">
                                 <?php if( !empty($banner_link['url']) ) : ?><a href="<?= $banner_link['url'];?>"><?php endif;?>
-                                    <source srcset="<?= $banner_image['url'];?>" media="(min-width: 1200px)"/>
-                                    <img src="<?= $banner_image_mobile['url'];?>" class="img-fluid w-100" alt="<?= $banner_image['alt'];?>"/>
+                                    <picture>
+                                        <source srcset="<?= $banner_image['url'];?>" media="(min-width: 1200px)"/>
+                                        <img src="<?= $banner_image_mobile['url'];?>" class="img-fluid w-100" alt="<?= $banner_image['alt'];?>"/>
+                                    </picture>
                                 <?php if( !empty($banner_link['url']) ) : ?></a><?php endif;?>
                             </div>
                         <?php
