@@ -457,7 +457,6 @@ body hr {
 }
 .sidemenu-navigation {
     padding-top: 2rem;
-    flex: 1;
 }
 .sidemenu-navigation .nav .menu-item {
     padding: 0 1rem;
@@ -663,6 +662,12 @@ body hr {
     padding: 0.375rem 1rem;
     color: #fff;
     border: 0.063rem solid #fff;
+    font-size: 14px;
+    line-height: 18px;
+}
+.call-to-action .btn > span {
+    font-size: inherit;
+    line-height: inherit;
 }
 .call-to-action .btn.btn-red {
     border: none;
@@ -742,6 +747,18 @@ body hr {
     visibility: visible;
     width: 100%;
 }
+.navbar-col.col-left .secondary-navigation, .navbar-col.col-left .secondary-navigation ul, .navbar-col.col-left .secondary-navigation ul .menu-item {
+    height: 100%;
+}
+.navbar-col.col-left .secondary-navigation ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.navbar-col.col-left .secondary-navigation ul .menu-item {
+    height: 100%;
+    padding-top: 6px;
+}
 @media (max-width: 767px) {
     .gpSlider .gp-item {
         width: 127px;
@@ -814,7 +831,88 @@ body hr {
         width: 175px;
     }
 }
+@media (max-width: 1199px) {
+    .sidemenu-secondary-navigation ul {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sidemenu-secondary-navigation ul .menu-item {
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
+    .sidemenu-secondary-navigation ul .menu-item a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 28px;
+    }
+    .sidemenu-secondary-navigation ul .menu-item a span {
+        padding-left: 0.5rem;
+    }
+}
 @media (min-width: 1200px) {
+    aside.side-menu-wrapper {
+        top: 48px;
+        height: auto;
+        transform: translate(0, -15px);
+        z-index: -1;
+    }
+    aside.side-menu-wrapper .side-menu {
+        max-width: 100%;
+    }
+    .side-menu-wrapper .side-menu > div:not(#sidemenu-navigation) {
+        display: none;
+    }
+    .sidemenu-navigation {
+        padding-top: 0;
+    }
+    .sidemenu-navigation .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        max-width: 91.66667%;
+        margin: 0 auto!important;
+        padding: 1rem 0!important;
+        gap: 1.5rem;
+    }
+    .sidemenu-navigation .nav .menu-item {
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .sidemenu-navigation .nav .menu-item a {
+        font-size: 14px;
+        line-height: 19px;
+        min-height: 23px;
+    }
+    .navbar-col.col-left .secondary-navigation ul .menu-item a::after, .sidemenu-menu-list .menu-item a::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -0.75rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 0;
+        height: 3px;
+        background: #ff0031;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease;
+    }
+    .sidemenu-menu-list .menu-item a::after {
+        bottom: -1rem;
+    }
+    .navbar-col.col-left .secondary-navigation ul .menu-item:hover a::after, .sidemenu-menu-list .menu-item:hover a::after {
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+    }
+    .sidemenu-navigation .nav .menu-item .menu-label {
+        padding-left: 0;
+    }
+    .sidemenu-navigation .tag::before {
+        left: -0.625rem;
+    }
     .ast-plain-container.ast-no-sidebar #primary {
         margin-top: 0;
         margin-bottom: 0;

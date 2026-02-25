@@ -93,25 +93,34 @@ function hajimi_custom_header_navigation($atts) {
         <nav class="navbar px-3 px-md-0 px-xl-0 pt-2 pb-0">
             <div class="navbar-row d-flex justify-content-center">  
                 <div class="col-12 col-md-11 d-flex justify-content-between align-items-center">
-                    <div class="navbar-col col-left d-flex justify-content-between w-100">
-                        <a href="<?= home_url();?>" class="navbar-brand p-0 m-0">
+                    <div class="navbar-col col-left d-flex justify-content-between justify-content-xl-start align-items-stretch w-100">
+                        <a href="<?= home_url();?>" class="navbar-brand p-0 m-0 me-2">
                         <?php if( $logo ) {
                             echo '<img src="' . esc_url( $logo[0] ) . '" alt="' . esc_attr( get_bloginfo('name') ) . '" alt="" class="me-2 pb-2">';
                         } else {
                             echo '<h1 class="site-title">' . esc_html( get_bloginfo('name') ) . '</h1>';
                         } ?>
                         </a>
-                    </div>
-                    <div class="navbar-col col-right d-flex justify-content-end align-items-center w-100">
-                        <button type="button" class="menu-toggler p-0 bg-transparent">
+                        <button type="button" class="menu-toggler p-0  pb-1 bg-transparent me-md-3">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             <span class="d-none hidden">Menu Toggle</span>
                         </button>
+						<?php
+						wp_nav_menu(array(
+							'theme_location' => 'secondary_menu',
+							'container_id' => 'secondary-navigation',
+							'container_class' => 'secondary-navigation d-none d-xl-block',
+							'menu_id' => 'secondary-menu-list',
+							'menu_class' => 'sidemenu-menu-list navbar nav m-0 p-0',
+						));
+						?>
+                    </div>
+                    <div class="navbar-col col-right d-none d-xl-flex justify-content-end align-items-center w-100">
                         <?php
                         $side_menu = get_field('side_menu', 'option');
                         $call_to_action = $side_menu['call_to_action'];
                         ?>
-                        <div class="call-to-action d-none d-md-flex align-items-center gap-md-2 ps-2">
+                        <div class="call-to-action d-none d-md-flex align-items-center gap-md-2">
                             <?php foreach($call_to_action as $btn) {
                                 $button = $btn['button_link'];
                                 $button_link = $button['url'];
@@ -184,10 +193,17 @@ function hajimi_custom_header_navigation($atts) {
                     'container_class' => 'sidemenu-navigation',
                     'menu_id' => 'primary-menu-list',
                     'menu_class' => 'sidemenu-menu-list navbar nav m-0 p-0',
-            ));
+                ));
+				wp_nav_menu(array(
+					'theme_location' => 'secondary_menu',
+					'container_id' => 'sidemenu-secondary-navigation',
+					'container_class' => 'sidemenu-secondary-navigation d-block d-xl-none',
+					'menu_id' => 'secondary-menu-list',
+					'menu_class' => 'sidemenu-menu-list navbar nav m-0 p-0',
+				));
             ?>
             </div>
-            <button type="button" class="close-side-menu bg-transparent">
+            <button type="button" class="close-side-menu bg-transparent d-xl-none">
                 <i class="fa fa-times" aria-hidden="true"></i>
                 <span class="d-none hidden">Close Menu</span>
             </button>
@@ -200,29 +216,28 @@ add_shortcode( 'hajimi_custom_header_navigation', 'hajimi_custom_header_navigati
 add_filter('nav_menu_link_attributes', 'add_acf_tag_to_a', 10, 4);
 function add_acf_tag_to_a($atts, $item, $args, $depth) {
 
-    if ($args->theme_location !== 'primary') {
-        return $atts;
-    }
-
-    $tags = get_field('tag', $item);
-
-    if (!empty($tags)) {
-
-        if (!is_array($tags)) {
-            $tags = array($tags);
-        }
-
-        if (!isset($atts['class'])) {
-            $atts['class'] = '';
-        }
+    if ($args->theme_location == 'primary' || $args->theme_location == 'secondary_menu' ) {
     
-        $atts['class'] .= 'tag';
-        foreach ($tags as $tag) {
-            $atts['class'] .= ' tag-' . sanitize_html_class($tag['value']);
+        $tags = get_field('tag', $item);
+    
+        if (!empty($tags)) {
+    
+            if (!is_array($tags)) {
+                $tags = array($tags);
+            }
+    
+            if (!isset($atts['class'])) {
+                $atts['class'] = '';
+            }
+        
+            $atts['class'] .= 'tag';
+            foreach ($tags as $tag) {
+                $atts['class'] .= ' tag-' . sanitize_html_class($tag['value']);
+            }
+    
+            $first_tag = reset($tags);
+            $atts['data-tag'] = esc_attr($first_tag['value']);
         }
-
-        $first_tag = reset($tags);
-        $atts['data-tag'] = esc_attr($first_tag['value']);
     }
 
     return $atts;
@@ -232,8 +247,8 @@ function add_icon_before_menu_title($title, $item, $args, $depth) {
     if (!is_string($title)) {
         return '';
     }
-
-    if (isset($args->theme_location) && $args->theme_location === 'primary') {
+    
+    if (isset($args->theme_location) && $args->theme_location == 'primary' || isset($args->theme_location) && $args->theme_location == 'secondary_menu' ) {
 
         $icon = get_field('menu_icon', $item);
         $icon_html = '';

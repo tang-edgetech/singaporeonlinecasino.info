@@ -56,8 +56,20 @@ $(document).ready(function() {
         var $button = $(this),
             $navbar = $button.closest('nav.navbar'),
             $side_menu = $navbar.siblings('.side-menu-wrapper');
-        $navbar.addClass('navbar-opened');
-        $side_menu.addClass('open');
+        if( window.matchMedia('(min-width: 1200px)').matches ) {
+            if( $navbar.hasClass('navbar-opened') ) {
+                $navbar.removeClass('navbar-opened');
+                $side_menu.removeClass('open');
+            }
+            else {
+                $navbar.addClass('navbar-opened');
+                $side_menu.addClass('open');
+            }
+        }
+        else {
+            $navbar.addClass('navbar-opened');
+            $side_menu.addClass('open');
+        }
     });
     $(document).on('click', '#masthead .side-menu-wrapper .close-side-menu', function(e) {
         e.preventDefault();
