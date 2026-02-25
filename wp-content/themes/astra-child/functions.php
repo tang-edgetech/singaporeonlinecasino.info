@@ -338,7 +338,7 @@ function game_result_board_shortcode($atts) {
     }
     else if( $result_board == 'top_winners' ) {
         $game_title = 'Top Winner';
-        $game_slug = 'top-winners';
+        $game_slug = 'top-winners d-none d-xl-block';
         $game_data = '[{"img":"https://eupphuat.com/assets/provider/evo.png","title":"***439***","price":"$ 10,030.30"},{"img":"https://eupphuat.com/assets/provider/dreamgame.png","title":"***195***","price":"$ 2,000.00"},{"img":"https://eupphuat.com/assets/provider/ssport.png","title":"***inm***","price":"$ 1,803.66"},{"img":"https://eupphuat.com/assets/provider/endorphina.png","title":"***514***","price":"$ 1,186.25"},{"img":"https://eupphuat.com/assets/provider/qtech.png","title":"***077***","price":"$ 707.20"},{"img":"https://eupphuat.com/assets/provider/fachaiv2.png","title":"***lim***","price":"$ 613.20"},{"img":"https://eupphuat.com/assets/provider/marbula2.png","title":"***huk***","price":"$ 613.10"},{"img":"https://eupphuat.com/assets/provider/sagaming.png","title":"***nna***","price":"$ 573.00"},{"img":"https://eupphuat.com/assets/provider/spribe.png","title":"***ill***","price":"$ 329.71"},{"img":"https://eupphuat.com/assets/provider/bngv2.png","title":"***ete***","price":"$ 286.70"}]';
     }
     
@@ -346,10 +346,10 @@ function game_result_board_shortcode($atts) {
     $data = json_decode($game_data, true);
     ?>
         <div class="game-board type-<?= $game_slug;?>">
-            <div class="game-header mb-2 mb-md-2 mb-lg-3 px-4 px-md-0">
+            <div class="game-header mb-2 mb-md-2 mb-lg-3 px-0">
                 <h3 class="game-header-title text-white"><?= $game_title;?></h3>
             </div>
-            <div class="game-body<?= ($result_board !== 'top_winners') ? ' px-4 px-md-0' : '';?>">
+            <div class="game-body<?= ($result_board !== 'top_winners') ? ' px-0' : '';?>">
             <?php
             if( $result_board == 'top_winners' ) {
             ?>
