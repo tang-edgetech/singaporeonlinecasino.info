@@ -751,7 +751,7 @@ body hr {
     }
     .homepage-pre-content {
         padding-top: 0.5rem;
-        background: #020202;
+        background: linear-gradient(0deg, #212121, #020202);
         gap: 1rem
     }
     .slider-header-title {
