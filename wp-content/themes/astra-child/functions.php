@@ -475,7 +475,7 @@ function randomWithdraw() {
 
 function mspuiyi_card() {
 ?>
-    <div class="aside-mspuiyi d-flex position-fixed">
+    <div class="aside-mspuiyi position-fixed d-none d-xl-flex">
         <img class="w-100 puiyi-img loading" src="<?= get_stylesheet_directory_uri();?>/assets/images/miss-puiyi-left.png" alt="Miss Puiyi" width="100" height="auto" data-was-processed="true">
         <div class="mspuiyi-text-wrapper text-white position-relative pe-3 pt-3 pb-3 ps-2">
             <p class="m-0 p-0 text-0-8">萧佩儿</p>
