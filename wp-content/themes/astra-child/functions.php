@@ -477,7 +477,7 @@ function mspuiyi_card() {
 ?>
     <div class="aside-mspuiyi d-flex position-fixed">
         <img class="w-100 puiyi-img loading" src="<?= get_stylesheet_directory_uri();?>/assets/images/miss-puiyi-left.png" alt="Miss Puiyi" width="100" height="auto" data-was-processed="true">
-        <div class="mspuiyi-text-wrapper text-white position-relative pr-3 pt-3 pb-3 pl-2">
+        <div class="mspuiyi-text-wrapper text-white position-relative pe-3 pt-3 pb-3 ps-2">
             <p class="m-0 p-0 text-0-8">萧佩儿</p>
             <p class="m-0 p-0 text-weight-600 text-1-2">MS PUI YI</p>
             <p class="m-0 p-0 text-0-8">EU9 Brand Ambassador 2021/22</p>
